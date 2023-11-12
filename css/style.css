@@ -1,7 +1,7 @@
 .body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
-    background-color: #FFF;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .link {
@@ -17,36 +17,25 @@ button {
 }
 
 
-
-.menu-link:hover,
-.menu-link:focus{
-    color: #404BBF;
-}
-
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
 }
 
+
 /* header */
 .logo {
 font-family: 'Raleway', sans-serif;
+color:#4D5AE5;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color:#4D5AE5;
 }
 
 .studio-black {
     color: #2e2f42;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
      }
 
 .menu-link {
@@ -61,7 +50,20 @@ color: #2e2f42;
     font-style: normal;
 }
 
-.address-link {
+.menu-link {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+  }
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contact {
 color:#434455;
 font-size: 16px;
 font-weight: 400;
@@ -69,60 +71,79 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-/* section 1 */
-.top-section {   
-text-align: center;
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: #FFF;
-background:#2E2F42;
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
 }
 
+/* section 1 */
+.section-one {
+    background-color: #2e2f42;
+  }
+
+  .title {
+    text-align: center;
+    color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+  }
+
 .active-button {
-border-radius: 4px;
-background: #4D5AE5;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    background-color: #4d5ae5;
+}
+
+.active-button:hover,
+.active-button:focus {
+ background-color: #404bbf;
 }
 
 /* section 2 */
-.item-discipline {
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.02em;
+.title-discipline {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 
-.title-discipline {
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
+ .text-discipline {
+    font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+ }
+
+
 
 /* section 3 */
- .section-team {
+ .section-three {
     background: #F4F4FD;
  }
 
- .team-title {
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
- }
+ .section-three-title {
+    text-align: center;
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
 
  .item-team {
 background-color: #FFFFFF;
-border-radius: 0px 0px 4px 4px;
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
  }
 
  .name {
+color: #2e2f42;    
 text-align: center;
 font-size: 20px;
 font-weight: 500;
@@ -131,17 +152,15 @@ letter-spacing: 0.02em;
  }
 
  .position {
-color: #434455;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
  }
 
 
 /* section 4 */
- .top-portfolio {
+ .title-portfolio {
+ color: #2e2f42;   
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -155,16 +174,15 @@ text-transform: capitalize;
  }
 
  .title-portfolio{
+    color: #2e2f42;   
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
  }
 
- .name-portfolio{
-    color: #434455;
+ .name-portfolio {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
  }
@@ -176,24 +194,21 @@ text-transform: capitalize;
  }
 
  .title-footer {
-color: #4D5AE5;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
- }
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
 
- .top-studio {
-color: var#F4F4FD;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
- }
+  .web-footer {
+    color: #f4f4fd;
+    font-size: 18px;
+    line-height: 1.16666;
+    letter-spacing: 0.54px;
+  }
 
  .inf-footer {
 color: #F4F4FD;
