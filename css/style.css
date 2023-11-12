@@ -172,3 +172,23 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
  }
+
+ .studio-black {
+color: #2E2F42;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+ }
+ 
+ .top-studio {
+color: var#F4F4FD;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+ }
