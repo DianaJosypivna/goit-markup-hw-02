@@ -27,6 +27,7 @@ button {
     color: #404BBF;
 }
 
+/* header */
 .logo {
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
@@ -37,12 +38,20 @@ text-transform: uppercase;
 color:#4D5AE5;
 }
 
+.studio-black {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+     }
+
 .menu-link {
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:#2E2F42;
 }
 
 .address-link {
@@ -53,6 +62,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+/* section 1 */
 .top-section {   
 text-align: center;
 font-size: 56px;
@@ -65,10 +75,11 @@ background:#2E2F42;
 
 .active-button {
 border-radius: 4px;
-background: var(--IRIS, #4D5AE5);
+background: #4D5AE5;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+/* section 2 */
 .item-discipline {
 color: #434455;
 font-size: 16px;
@@ -78,18 +89,18 @@ letter-spacing: 0.02em;
 }
 
 .title-discipline {
-color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
+
+/* section 3 */
  .section-team {
     background: #F4F4FD;
  }
 
  .team-title {
-color: #2E2F42;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -99,12 +110,12 @@ text-transform: capitalize;
  }
 
  .item-team {
+background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
  }
 
  .name {
-color: #2E2F42;
 text-align: center;
 font-size: 20px;
 font-weight: 500;
@@ -121,8 +132,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
  }
 
+
+/* section 4 */
  .top-portfolio {
-color: #2E2F42;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -136,7 +148,6 @@ text-transform: capitalize;
  }
 
  .title-portfolio{
-    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -151,30 +162,14 @@ text-transform: capitalize;
     letter-spacing: 0.02em;
  }
 
+
+ /* footer */
  .top-footer {
    background-color: #2E2F42;
  }
 
  .title-footer {
 color: #4D5AE5;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
- }
-
- .inf-footer {
-color: #F4F4FD;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
- }
-
- .studio-black {
-color: #2E2F42;
 font-family: Raleway;
 font-size: 18px;
 font-weight: 700;
@@ -192,3 +187,12 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
  }
+
+ .inf-footer {
+color: #F4F4FD;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+ }
+ 
